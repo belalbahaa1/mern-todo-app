@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
+
+axios.defaults.baseURL = "https://mern-todo-app-mu-orpin.vercel.app";
+
 import { MdDeleteOutline, MdLightMode, MdDarkMode } from "react-icons/md";
 import { FaRegEdit } from "react-icons/fa";
 import { IoIosClose } from "react-icons/io";
